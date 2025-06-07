@@ -1,5 +1,11 @@
 <ul class="card-text font-weight-light list-group list-group-flush">
-  {% assign work = data[1] | sort: 'startDate' | reverse %}
+  {% assign work_with_end = data[1] | where_exp: "item", "item.endDate != null" %}
+  {% assign work_no_end = data[1] | where_exp: "item", "item.endDate == null" %}
+  
+  {% assign work_with_end_sorted = work_with_end | sort: 'startDate' | reverse %}
+  {% assign work_no_end_sorted = work_no_end | sort: 'startDate' | reverse %}
+  
+  {% assign work = work_no_end_sorted | concat: work_with_end_sorted %}
   {% for content in work %}
     <li class="list-group-item">
       <div class="row">
