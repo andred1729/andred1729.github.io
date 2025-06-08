@@ -35,7 +35,7 @@ ninja.data = [{
               window.location.href = "/projects/golve_controlled_gantry/";
             },},{id: "projects-magicbox",
           title: 'magicBox',
-          description: "neural network powered pattern recognition lock-box.",
+          description: "neural network powered pattern recognition lock-box",
           section: "Projects",handler: () => {
               window.location.href = "/projects/magicBox/";
             },},{id: "projects-mobilegenius",
