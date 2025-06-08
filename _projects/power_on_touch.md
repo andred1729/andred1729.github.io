@@ -2,7 +2,7 @@
 layout: page
 title: power-on-touch
 description: power-on-touch turns your hand into a wireless power source
-img: assets/img/12.jpg
+img: assets/img/case.png
 importance: 4
 category: past
 related_publications: true
