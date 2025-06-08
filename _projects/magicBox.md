@@ -2,7 +2,7 @@
 layout: page
 title: magicBox
 description: neural network powered pattern recognition lock-box
-img: assets/img/boxProfile.png
+img: assets/img/magicBox.png
 importance: 2
 category: past
 giscus_comments: false

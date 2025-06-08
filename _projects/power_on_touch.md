@@ -2,7 +2,7 @@
 layout: page
 title: power-on-touch
 description: power-on-touch turns your hand into a wireless power source
-img: assets/img/case.png
+img: assets/img/powerontouch.png
 importance: 4
 category: past
 related_publications: true
@@ -11,7 +11,9 @@ related_publications: true
 
 Our project, Power-on-Touch, explores an idea to eliminate batteries in everyday objects by powering them solely through user interaction. Developed as part of our research at the University of Chicago's Human-Computer Integration Lab, this technology harnesses resonant inductive coupling to wirelessly transfer energy from a wearable transmitter to devices as the user interacts with them.
 
-Our applications were several, including a self-opening box, restaurant call button, lockers, a microphone, a lock-box, and a scale.
+When I joined the project, Alex, author, was rushing to get the paper done for the CHI deadline, so I helped integrate the technology into several applications alonside making the wearable for the board.
+
+Our applications include a self-opening box, restaurant call button, lockers, a microphone, a lock-box, and a scale.
 
 Here is the demonstration of the lock-box / doorknob. It was actually pretty interesting to make—we first realized that servo motors were hideously inefficient for our purposes (we were transmitting around 1–2 watts), as you can see:
 

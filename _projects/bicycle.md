@@ -1,6 +1,6 @@
 ---
 layout: page
-title: bicycleRestoration
+title: bikeRestoration
 description: rescued and fixed an abandoned bike
 img: assets/img/bikeLabel.png
 importance: 6

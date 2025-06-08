@@ -2,7 +2,7 @@
 layout: page
 title: handGantry
 description: glove controlled gantry
-img: assets/img/gantry.png
+img: assets/img/handGantry.png
 importance: 1
 category: past
 giscus_comments: false
