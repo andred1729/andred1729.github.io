@@ -10,8 +10,8 @@ giscus_comments: false
 
 We made this for MakeHarvard 2025. I’ve been interested in teleoperation for a while, and while we were ideating, the idea of a flex glove controlling a robot developed. Initially, we were going to make a wheel-propelled robot that you could manipulate by moving your fingers, but we deemed that idea unintuitive and unnecessarily complicated. We then landed on our final concept: integrating flex sensors into a glove and hand-crafting a gantry to be controlled by the glove.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-sm-center">
+    <div class="col-12 col-lg-10 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/glove.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -25,8 +25,8 @@ The perfect integration with the gloves (which we also bought at Microcenter) wa
 
 Here is the gantry we built parallel to the glove:
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-sm-center">
+    <div class="col-12 col-lg-10 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/gantry.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -35,9 +35,15 @@ It was quite an ordeal to build this. We constructed the frame from extrusions, 
 
 We were working seconds before the deadline and just got it together in time. Here is the result:
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/gantry.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
-    </div>
+<div class="row justify-content-center">
+  <div class="col-12 col-md-8 col-lg-6 mt-3">
+    {% include video.liquid
+       path="assets/video/gantry.mp4"
+       class="img-fluid rounded z-depth-1"
+       controls=true
+       autoplay=true
+    %}
+  </div>
 </div>
+
 

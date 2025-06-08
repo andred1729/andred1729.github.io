@@ -18,8 +18,8 @@ We chose a servo because our group had experience with them before, instead of a
 
 We also found these interesting copper circles, which were pressure sensors that exactly fit our needs. Very lucky.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-center">
+  <div class="col-12 col-md-8 col-lg-6 mt-3">
         {% include figure.liquid loading="eager" path="assets/img/unfinishedBox.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -30,8 +30,8 @@ We also found these interesting copper circles, which were pressure sensors that
 I worked on making the box, which involved a lot of laser-cutting scrap wood in the Maker Center to achieve the perfect box size. The box needed to be large enough to fit electronics but small enough for the servo to easily lift the lid. Looking around the Maker Center, I found the perfect water-based paint to stain the wood:
 
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-center">
+  <div class="col-12 col-md-8 col-lg-6 mt-3">
         {% include figure.liquid loading="eager" path="assets/img/stainedWood.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -46,9 +46,8 @@ At our table, with our box completed, we ran the Arduino code, and it worked per
 
 Here is a video of it working:
 
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-center">
+  <div class="col-12 col-md-8 col-lg-6 mt-3">
         {% include video.liquid path="assets/video/lockMovie.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>

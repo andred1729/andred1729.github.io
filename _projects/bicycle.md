@@ -23,8 +23,8 @@ I began to work on it.
 
 Firstly, I cleaned the chassis with a microfiber cloth and WD-40. It was a pain to get all the old duct tape off, but it came out pretty well.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-sm-center">
+    <div class="col-12 col-lg-10 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/rustyChain.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -34,17 +34,18 @@ Firstly, I cleaned the chassis with a microfiber cloth and WD-40. It was a pain 
 
 Next, I replaced the chain, the back tire, and the inner tubes on both wheels.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-sm-center">
+    <div class="col-12 col-lg-10 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/backTire.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 I’m very proud of the result:
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/finishedBike.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+
+<div class="row justify-content-sm-center">
+    <div class="col-12 col-lg-10 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/finishedBike.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

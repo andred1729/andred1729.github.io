@@ -15,8 +15,8 @@ Our applications were several, including a self-opening box, restaurant call but
 
 Here is the demonstration of the lock-box / doorknob. It was actually pretty interesting to make—we first realized that servo motors were hideously inefficient for our purposes (we were transmitting around 1–2 watts), as you can see:
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-center">
+  <div class="col-12 col-md-8 col-lg-6 mt-3">
         {% include video.liquid path="assets/video/lockboxServo.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>
