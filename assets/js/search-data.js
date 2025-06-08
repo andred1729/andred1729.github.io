@@ -23,11 +23,21 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "projects-handgantry",
+        },{id: "projects-bicyclerestoration",
+          title: 'bicycleRestoration',
+          description: "rescued and fixed an abandoned bike",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/bicycle/";
+            },},{id: "projects-handgantry",
           title: 'handGantry',
           description: "glove controlled gantry",
           section: "Projects",handler: () => {
               window.location.href = "/projects/golve_controlled_gantry/";
+            },},{id: "projects-magicbox",
+          title: 'magicBox',
+          description: "neural network powered pattern recognition lock-box.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/magicBox/";
             },},{id: "projects-mobilegenius",
           title: 'mobileGenius',
           description: "robot run by an FPGA running a multimodal LLM",
@@ -45,7 +55,7 @@ ninja.data = [{
               window.location.href = "/projects/ratatouillle/";
             },},{id: "projects-electrickart",
           title: 'electricKart',
-          description: "another project with an image 🎉",
+          description: "RC electric go-kart",
           section: "Projects",handler: () => {
               window.location.href = "/projects/rc-electric-kart/";
             },},{
