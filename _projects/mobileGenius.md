@@ -3,7 +3,7 @@ layout: page
 title: mobileGenius
 description: robot run by an FPGA running a multimodal LLM
 img:
-importance: 1
+importance: 2
 category: current
 ---
 

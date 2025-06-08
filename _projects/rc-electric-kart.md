@@ -1,11 +1,13 @@
 ---
 layout: page
 title: electricKart
-description: another project with an image 🎉
+description: RC electric go-kart
 img: assets/img/6.jpg
-importance: 4
-category: past
+importance: 5
+category: 
 ---
+
+This project was done for the 2023 Summer Tech Showcase. 
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.

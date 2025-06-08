@@ -3,7 +3,7 @@ layout: page
 title: ratatouille
 description: solving micromouse with RL
 img: assets/img/ratattouilleimage.png
-importance: 2
+importance: 1
 category: current
 pdf: assets/pdf/ratatouille.pdf
 ---
@@ -17,10 +17,9 @@ pdf: assets/pdf/ratatouille.pdf
 </div>
 {% endif %}
 
-Our project for our class: Planning, Learning, and Estimation for Robotics and Artificial Intelligence TTIC 31170 taught by Matthew Walter, involved solving micromouse using two different RL agents: a Soft Actor Critic and a Deep Q-Network.
+Our project for our class: Planning, Learning, and Estimation for Robotics and Artificial Intelligence TTIC 31170 taught by Matthew Walter. We attempted to solve micromouse using two different RL agents: a Soft Actor Critic and a Deep Q-Network.
 
 Micromouse is a competion where teams build small, autonomous robots that are designed to reach the center of the maze.
-
 
 
 <div class="row justify-content-sm-center">
